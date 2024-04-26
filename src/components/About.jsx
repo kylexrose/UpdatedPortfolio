@@ -37,12 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Fueled by a passion for problem-solving and perpetual learning, I thrive in dynamic environments. Alongside my expertise in creating full-stack applications utilizing the MERN stack, I have also honed my skills in building robust backend solutions with C#. My diverse experience allows me to tackle challenges with a versatile approach, ensuring effective solutions that meet the needs of any project. Let's collaborate and bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

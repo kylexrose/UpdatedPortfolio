@@ -3,10 +3,14 @@ import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import logo from './logo/krlogo.png';
+import logotext from './logo/Kyle.png';
 
-import shaq from './personal/shaq.png';
+import kyle from './personal/headshot.jpeg';
+import myResume from './personal/Kyle_Rose_Resume.pdf'
+import codeImmersives from './personal/code_immersives_logo.jpeg'
+import bitpay from './personal/bitpay_thumbnail.jpeg'
+import persevere from './personal/PersevereIcon.jpeg'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -25,7 +29,7 @@ import sendHover from './icons/sendHover.png';
 
 import css from './tech/css.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+import csharp from './tech/csharp.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
@@ -49,6 +53,8 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import brutalBudget from './projects/bb_preview.png'
+import savvySpace from './projects/ss_preview.png'
 
 export {
   bwmap,
@@ -57,7 +63,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  kyle,
   backend,
   ux,
   frontend,
@@ -74,7 +80,7 @@ export {
   sendHover,
   css,
   docker,
-  figma,
+  csharp,
   git,
   graphql,
   html,
@@ -87,6 +93,7 @@ export {
   tailwind,
   typescript,
   komikult,
+  brutalBudget,
   leaderboard,
   math,
   movie,
@@ -96,4 +103,9 @@ export {
   dcc,
   kelhel,
   microverse,
+  myResume,
+  bitpay,
+  codeImmersives,
+  persevere,
+  savvySpace
 };
