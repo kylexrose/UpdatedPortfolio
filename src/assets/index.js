@@ -55,6 +55,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import brutalBudget from './projects/bb_preview.png'
 import savvySpace from './projects/ss_preview.png'
+import broll from 'broll.png'
 
 export {
   bwmap,
@@ -107,5 +108,6 @@ export {
   bitpay,
   codeImmersives,
   persevere,
-  savvySpace
+  savvySpace,
+  broll
 };

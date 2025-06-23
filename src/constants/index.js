@@ -30,7 +30,8 @@ import {
   codeImmersives,
   persevere,
   bitpay,
-  savvySpace
+  savvySpace,
+  broll
 } from '../assets';
 
 export const navLinks = [
@@ -120,6 +121,13 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Principle Developer',
+    company_name: 'B Roll',
+    icon: broll,
+    iconBg: '#333333',
+    date: 'Sept 2024 - Present',
+  },
+  {
     title: 'MERN stack Coding Instructor',
     company_name: 'Persevere',
     icon: persevere,
@@ -143,6 +151,24 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    id: 'project-1',
+    name: 'Brutal Budget',
+    description: 'A full stack media library application utilizing the MERN stack with simultaneous compressions, clip creations, tagging functionality, and user access.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+    ],
+    image: brutalBudget,
+    // repo: 'https://github.com/kylexrose/brutal-budget-frontend',
+    // demo: 'https://shaqdeff.github.io/KomiKult/',
+  },
   {
     id: 'project-1',
     name: 'Brutal Budget',
@@ -179,74 +205,7 @@ const projects = [
     image: savvySpace,
     repo: 'https://github.com/kylexrose/savvy-space-frontend',
     // demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+  }
 ];
 
 export { services, technologies, experiences, projects };
