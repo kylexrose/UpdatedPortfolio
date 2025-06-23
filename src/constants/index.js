@@ -31,6 +31,7 @@ import {
   persevere,
   bitpay,
   savvySpace,
+  brollLogo,
   broll
 } from '../assets';
 
@@ -123,7 +124,7 @@ const experiences = [
   {
     title: 'Principle Developer',
     company_name: 'B Roll',
-    icon: broll,
+    icon: brollLogo,
     iconBg: '#333333',
     date: 'Sept 2024 - Present',
   },
@@ -152,8 +153,8 @@ const experiences = [
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'Brutal Budget',
+    id: 'project-0',
+    name: 'B Roll',
     description: 'A full stack media library application utilizing the MERN stack with simultaneous compressions, clip creations, tagging functionality, and user access.',
     tags: [
       {
@@ -165,7 +166,7 @@ const projects = [
         color: 'green-text-gradient',
       },
     ],
-    image: brutalBudget,
+    image: broll,
     // repo: 'https://github.com/kylexrose/brutal-budget-frontend',
     // demo: 'https://shaqdeff.github.io/KomiKult/',
   },
@@ -191,7 +192,7 @@ const projects = [
     id: 'project-2',
     name: 'Savvy Space',
     description:
-      'A full stack Learning Management System utilizing .NET core and SQL in the backend and React.js Frontend.',
+      'A full stack Learning Management System utilizing node.js and SQL in the backend and React.js Frontend.',
     tags: [
       {
         name: 'react',

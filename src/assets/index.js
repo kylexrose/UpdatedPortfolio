@@ -11,6 +11,7 @@ import myResume from './personal/Kyle_Rose_Resume.pdf'
 import codeImmersives from './personal/code_immersives_logo.jpeg'
 import bitpay from './personal/bitpay_thumbnail.jpeg'
 import persevere from './personal/PersevereIcon.jpeg'
+import brollLogo from './personal/broll.png'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -55,7 +56,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import brutalBudget from './projects/bb_preview.png'
 import savvySpace from './projects/ss_preview.png'
-import broll from 'broll.png'
+import broll from './projects/brollApp.png'
 
 export {
   bwmap,
@@ -109,5 +110,6 @@ export {
   codeImmersives,
   persevere,
   savvySpace,
+  brollLogo,
   broll
 };
